@@ -7,8 +7,8 @@
 </head>
 <body>
     <h1>Formulário de nacionalidade</h1>
-    Estou vivendo no : <input type="text" name="txtpais" id="txtpais" >
-    <input type="button" value="Verificar" onclick="verificar()">
+    Estou vivendo no : <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="verificar()" >
     <div id="res">
 
     </div>
@@ -17,10 +17,9 @@
         var txtp = window.document.getElementById('txtpais')
 
         function verificar() {
-            var txtp = document.getElementById('txtpais')
-            var res = document.getElementById('res')
-           
-            
+            var txtp = window.getElementById('txtpais')
+            var res = window.getElementByIdn('res')
+    
         }
     </script>
 </body>
