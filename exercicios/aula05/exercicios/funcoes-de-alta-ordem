@@ -1,0 +1,13 @@
+// HIGH ORDER FUNCTIONS
+
+// 1. Função que retorna outra função como parâmetro
+
+function welcome(nomeDoCurso) {
+  return (nomeDoEstudante) => {
+    console.log(
+      `Olá, ${nomeDoEstudante}! Seja bem-vindo ao curso de ${nomeDoCurso}!`
+    );
+  };
+}
+
+// 2. Função que recebe outra função como parâmetro
