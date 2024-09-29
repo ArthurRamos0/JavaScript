@@ -1,0 +1,3 @@
+Nome: Arthur Ramos
+Idade: 22
+Altura: 1.67
