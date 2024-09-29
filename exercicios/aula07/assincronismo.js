@@ -49,7 +49,7 @@ function lerArquivoPromise() {
     );
   });*/
 
-// 3. Async/await
+// 3. Async/await + moderno
 
 async function leituraDeDados() {
   console.log("Isso é executado ANTES da promise ser resolvidade!");
